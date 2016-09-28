@@ -114,6 +114,7 @@ module.exports = function GameController(io) {
       });
 
       socket.on('disconnect', function() {
+        usernames.splice(usernames.indexOf(socket.username), 1);
         if (socket.room != null) {
           var blackjackGame = rooms[socket.room];
           blackjackGame.removePlayer(socket.username, function(player) {
