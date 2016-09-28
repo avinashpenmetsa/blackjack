@@ -1,0 +1,26 @@
+#lobby {
+  width: 100%;
+  margin: auto;
+}
+
+#createRoom {
+  width: 50%;
+  float: left;
+  min-height: 300px;
+}
+
+#roomList {
+  width: 50%;
+  float: left;
+  min-height: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul:hover {
+  cursor: pointer;
+}

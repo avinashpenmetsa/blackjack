@@ -1,0 +1,38 @@
+#dealer {
+  width: 50%;
+  margin: auto;
+  float: left;
+  min-height: 300px;
+  background-color: forestgreen;
+}
+
+#options {
+  width: 25%;
+  float: left;
+  padding: 30px
+}
+
+#deal {
+  padding: 20px;
+}
+
+#players {
+  width: 100%;
+  margin: auto;
+}
+
+.player {
+  width: 25%;
+  float: left;
+  min-height: 300px;
+}
+
+#cards li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
